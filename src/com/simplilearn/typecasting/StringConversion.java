@@ -14,9 +14,14 @@ public class StringConversion {
 		
 		int num = 10;
 		
+		byte numByte = 20;
+		
+		
 		String data = String.valueOf(num);
 		
-		System.out.println("The String value :"+data);
+		String data2 = String.valueOf(numByte);
+		
+		System.out.println("The String value :"+data2);
 		
 
 	}
